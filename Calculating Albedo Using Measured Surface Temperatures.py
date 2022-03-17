@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[13]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -40,4 +34,3 @@ plt.show()
 
 #Overall trend shows that as albedo increases, surface temperature decreases. As albedo decreases, surface temperatures increase.#
 #Implications for increasing temperatures if global ice melts and there is construction of more manmade surfaces creating a positive feedback loop.
-
