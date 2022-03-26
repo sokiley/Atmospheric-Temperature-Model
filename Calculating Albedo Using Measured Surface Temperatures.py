@@ -32,5 +32,5 @@ plt.xlabel("Albedo")
 plt.ylabel("Temperature (K)")
 plt.show()
 
-#Overall trend shows that as albedo increases, surface temperature decreases. As albedo decreases, surface temperatures increase.#
+#Overall trend shows that as albedo increases, surface temperature decreases. As albedo decreases, surface temperatures increase.
 #Implications for increasing temperatures if global ice melts and there is construction of more manmade surfaces creating a positive feedback loop.
