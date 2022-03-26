@@ -1,11 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Collected data on surface temperatures using thermometer. Held thermometer one meter off ground.
+# Collected data on surface temperatures using thermometer. Held thermometer a quarter meter off ground.
 # Collected measured temperature in Celsius once the temperature reached a constant value.
-t1_surface_temp = [["Water", 288], ["Grass", 293], ["Concrete", 303], ["Roads", 323]]
-t2_surface_temp = [["Water", 288], ["Grass", 293], ["Concrete", 303], ["Roads", 323]]
-t3_surface_temp = [["Water", 288], ["Grass", 293], ["Concrete", 303], ["Roads", 323]]
+t1_surface_temp = [["Water", 22.0 + 273], ["Grass", 24.7 + 273], ["Concrete", 26.1 + 273], ["Roads", 29.4 + 273]]
+t2_surface_temp = [["Water", 23.0 + 273], ["Grass", 24.4 + 273], ["Concrete", 26.1 + 273], ["Roads", 29.7 + 273]]
+t3_surface_temp = [["Water", 21.7 + 273], ["Grass", 25.0 + 273], ["Concrete", 26.7 + 273], ["Roads", 30.6 + 273]]
 
 # Averages of the temperatures for each surface
 water_avg = (t1_surface_temp[0][1] + t2_surface_temp[0][1] + t3_surface_temp[0][1]) / 3
