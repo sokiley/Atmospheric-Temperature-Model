@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[36]:
-
-
 import math
 import numpy as np
 import matplotlib.pyplot as plt
@@ -84,6 +78,7 @@ plt.ylabel('Carbon Dioxide (ppm)')
 plt.show()
 
 
+
 X = np.linspace(0, years, 5)
 Y = (surface_temp + increase_temp * X) 
 
@@ -92,22 +87,3 @@ plt.title('Increase in Temperature (K) Over Time (years) after CO2 Input\n')
 plt.xlabel('Time (years)')
 plt.ylabel('Temperature (K)')
 plt.show()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
