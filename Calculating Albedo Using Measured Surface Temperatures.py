@@ -28,7 +28,7 @@ def albedo(x):
 
 
 
-# Graph the function using the collected data
+# Graph the function using the data
 X = [albedo(water_avg), albedo(grass_avg), albedo(concrete_avg), albedo(roads_avg)]
 Y = [water_avg, grass_avg, concrete_avg, roads_avg]
 
