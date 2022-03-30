@@ -14,6 +14,7 @@ planet = input('Enter the planet name (Earth, Mars, Venus, or Mercury):\n')
 
 delta = 0.0000000567
 if planet == 'Earth':
+    # Calculate the surface temperature of Earth
     albedo = 0.33
     solar_irradiance = 1367
     initial_co2 = 413
@@ -54,7 +55,7 @@ ppm_total_new_co2 = (new_co2) * 1000000
 
 
 
-                                                             
+# Function to calculate increase in temperature.                                                            
 def temp(x, y, z):
     return 5.35 * (x / 173.62) * math.log(y / z, 2.71828)
 
@@ -66,8 +67,9 @@ new_temp = int(surface_temp + increase_temp * years)
 print('After', years, 'years, the new carbon dioxide level is', int((ppm_change_co2 * years) + initial_co2), 'parts per million.\n')
 print('The new temperature', years, 'years from now is', new_temp , 'degrees Kelvin if carbon dioxide is added at a constant rate.\n')
 
+
     
-    
+# Graph changes in temperature and carbon dioxide over time    
 X = np.linspace(0, years, 5)
 Y = initial_co2 + ppm_change_co2 * X
 
